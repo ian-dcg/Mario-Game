@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <style>
+      @font-face {
+        font-family: 'Mario';
+        src: url('./fonts/SuperMario256.ttf');
+      }
+    </style>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js" defer></script>
     <title>Mario Jump</title>
   </head>
   <body>
     <div class="game-board">
-      <img src="images/clouds.png" class="clouds" />
-      <img src="images/Game-Over-PNG-Image.png" class="gameover" />
+      
+      <img src="./images/clouds.png" class="clouds" />
+      <!-- <img src="./images/score.png" class="score"> -->
+      <p class="score">SCORE</p>
+      <p class="points">000</p>
+      <img src="./images/Game-Over-PNG-Image.png" class="gameover" />
       <img src="./images/mario.gif" class="mario" />
       <img src="./images/pipe.png" class="pipe" />
     </div>
