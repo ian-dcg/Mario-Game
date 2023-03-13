@@ -8,7 +8,7 @@ Jogo clássico do Mario desenvolvido com apenas HTML, CSS e Javascript!
 
 #### Navbar/Home:   
 
-<img src="/public/mario-game1.png">
+<img src="/images/mario-game1.png">
 
-<img src="/public/mario-game2.png">
+<img src="/images/mario-game2.png">
 
